@@ -1,0 +1,20 @@
+{
+  "name": "ci-widgets/selector",
+  "description": "Front end Test Scenario",
+  "readme": "./README.md",
+  "authors": [
+    {
+      "name": "Joshua Matikinye",
+      "email": "jbmatikinye@gmail.com",
+      "role": "Software Engineer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Api\\": "api/"
+    }
+  },
+  "require": {
+    "ext-json": "*"
+  }
+}

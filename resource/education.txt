@@ -1,0 +1,12 @@
+Some Schooling (disabled)
+Grade 9
+Grade 10
+Grade 11
+Grade 12 / Matric (disabled)
+Certificate
+Diploma
+Degree
+Honors
+Professional Qualification
+Masters
+Doctorate

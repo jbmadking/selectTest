@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.form , .results{
+    width: 50%;
+    display: inline-block;
+}
+.form {
+    position: relative;
+    margin-left: 40px;
+}
+
+.results {
+    font-size: large;
+}
+label {
+    display: block;
+    font-size: x-large;
+    text-align: center;
+    padding: 4px;
+    color: #000;
+}
+
+.custom-select {
+    background-color: #fff;
+    border: solid 1px #ccc;
+    width: 280px;
+    height: 40px;
+    color: #ccc;
+}
+select:focus{
+    border-color: #06c;
+}
+select.focused {
+    color: #000;
+}
+
+.hidden-select {
+    visibility: hidden;
+}
+
+option {
+    height: 190px;
+    font-size: 14px;
+    color: #06c;
+}
+
+option:disabled {
+    color: #ccc;
+}
+
+option.selected {
+    color: #000;
+}
+
+option:hover {
+    background-color: aliceblue;
+}
+
+.none-selected {
+    display: none;
+}
+
+.disabled {
+    color: #ccc;
+}
+
+.form-actions {
+    margin-top: 40px;
+}
+

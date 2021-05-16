@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>Dropdown Test</title>
+</head>
+<body>
+<div class="container">
+    <div class="form">
+        <form>
+            <h2 class="education-list">Highest Qualification</h2>
+            <div class="customSelect">
+                <select id="education-list" class="custom-select">
+                    <option value="0" class="none-selected">Please Select...</option>
+                </select>
+                <select id="hidden-select" class="hidden-select">
+                </select>
+            </div>
+            <div class="form-actions">
+                <button type="button" id="saveSelection">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="results">
+        <h2>Results</h2>
+        <div id="Action"></div>
+        <div id="ItemCount"></div>
+        <div id="Result"></div>
+        <div id="SelectedItem"></div>
+        <div id="Weight"></div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/scripts.js"></script>
+</html>
